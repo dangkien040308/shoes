@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_brand {
+    width: 20%;
+}
+.nav_brand img {
+    width: 40%;
+}
+.nav_wrap span {
+    margin-left: 50px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+.nav_wrap span:hover {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.nav_input-container {
+    padding: 8px 10px;
+    border-radius: 10px;
+    background: rgba(22, 24, 35, .06);
+}
+.nav_input-container input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.nav_input-container svg {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.nav_input-container svg:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
